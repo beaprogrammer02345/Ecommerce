@@ -1,0 +1,449 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+    html {
+      font-size: 56.12%;
+    }
+    body,
+    html {
+      overflow-x: hidden;
+    }
+    .logo-search {
+      gap: 6rem;
+    }
+    .facility-part {
+      padding: 0;
+    }
+    .deal-img-2 {
+      height: 31.5rem;
+    }
+    .deals-banner-section {
+      padding-bottom: 6rem;
+    }
+    .logo-img {
+      height: 4.2rem;
+      width: 4.1rem;
+    }
+    .logo-name {
+      font-size: 2.9rem;
+    }
+    .latter-text-1 {
+      font-size: 3.1rem;
+    }
+    .latter-text-2 {
+      font-size: 1.8rem;
+    }
+    .latter-section-content {
+      left: 61.7rem;
+    }
+    .facility-text p {
+      font-size: 1.3rem;
+    }
+    .footer-2 {
+      font-size: 1.6rem;
+    }
+    .head-2 {
+      font-size: 4rem;
+    }
+    .hero-text,
+    .heading-3 {
+      font-size: 2rem;
+    }
+    .heading-1,
+    .heading-2 {
+      font-size: 4rem;
+    }
+    .collection-img-2 {
+      height: 40rem;
+    }
+  }
+  
+  @media (max-width: 80em) {
+    .logo-name {
+      font-size: 2.6rem;
+    }
+    .collection-img-1 {
+      width: 53rem;
+    }
+    .search-bar {
+      width: 44rem;
+    }
+    .btn-deal {
+        top: 21.7rem;
+        left: 2.7rem;
+    }
+    .deal-text {
+        top: 4.8rem;
+        left: 2.2rem;
+    }
+    .collection-img-1 {
+      margin-right: 8rem;
+    }
+  
+    .collection-img-2 {
+      height: 31rem;
+    }
+    .popular-categorie {
+      width: 89vw;
+    }
+    .deals-container {
+      padding: 4rem;
+      gap: 1.5rem;
+    }
+    .deal-img-2 {
+      width: 54rem;
+      height: 29rem;
+    }
+    .hero-img {
+      right: -8rem;
+    }
+    .popular-container {
+      gap: 0;
+    }
+    .list-item a {
+      font-size: 1.6rem;
+    }
+    .deal-img-1 {
+      width: 54rem;
+    }
+    .trend-container {
+      width: 24rem;
+      height: 38.2rem;
+    }
+    .trend-product {
+      width: 25rem;
+    }
+    .heart-icon {
+      right: 0.9rem;
+    }
+    .popular-image {
+      width: 19rem;
+    }
+    .popular-text {
+      width: 83%;
+    }
+  }
+  
+  @media (max-width: 75.12em) {
+    html {
+      /* 9px / 16px  */
+      font-size: 56.25%;
+    }
+    .search-bar {
+      width: 37rem;
+    }
+    .latter-section-content {
+      left: 58.7rem;
+    }
+    .logo-search {
+      gap: 13rem;
+    }
+    .head-1 {
+      font-size: 1.8rem;
+    }
+    .head-2 {
+      font-size: 3.6rem;
+      line-height: 1;
+    }
+    .hero-text {
+      font-size: 1.9rem;
+    }
+    .btn {
+      width: 22%;
+    }
+    .btn p {
+      font-size: 1.9rem;
+    }
+    .heading-1,
+    .heading-2,
+    .trend-heading-1 {
+      font-size: 3.8rem;
+    }
+    .heading-3,
+    .trend-heading-2 {
+      font-size: 2rem;
+    }
+    .collection-container {
+      padding: 8.6rem 8.6rem 8.6rem 9.6rem;
+    }
+    .latter-text-1 {
+      font-size: 2.6rem;
+    }
+  
+    .deal-text {
+      top: 5.8rem;
+      left: 3.2rem;
+      font-size: 3rem;
+    }
+    .btn-deal {
+      top: 21.7rem;
+      left: 2.7rem;
+      padding: 1rem 1.8rem 1rem 1.8rem;
+      gap: 1rem;
+      font-size: 2rem;
+    }
+    .footer-head {
+      font-size: 2.7rem;
+    }
+    .footer-item {
+      font-size: 1.8rem;
+    }
+  }
+  @media (max-width: 68em) {
+    html {
+      font-size: 50%;
+    }
+    .hero-img {
+      right: -14rem;
+      bottom: -10rem;
+    }
+
+    .hero-head {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .switch-img {
+      width: 7.5rem;
+      height: 3.1rem;
+    }
+    .trend-product {
+      width: 24rem;
+    }
+  
+    .facility-section {
+      justify-content: none;
+    }
+    .collection-container {
+      padding: 6.6rem 6.6rem 6.6rem 7.6rem;
+    }
+    .collection-image {
+      justify-content: center;
+    }
+    .collection-img-1 {
+      margin-right: 3rem;
+    }
+    .heart-icon {
+      right: 1rem;
+    }
+    .rating {
+      bottom: 10rem;
+    }
+    .latter-text-1 {
+      font-size: 2.8rem;
+    }
+    .latter-text-2 {
+      font-size: 1.5rem;
+    }
+    .deal-input {
+      font-size: 1.2rem;
+      padding: 1rem;
+    }
+    .latter-section-content {
+      left: 53rem;
+      top: 4.2rem;
+    }
+    .latter-img-2 {
+      width: 100%;
+    }
+    .deal-img-2 {
+      width: 55rem;
+    }
+    .facility-text p {
+      font-size: 1.3rem;
+    }
+    .footer-item {
+      padding: 0.5rem 0;
+    }
+    .trend-container-section {
+      padding-left: 1rem;
+    }
+  }
+  
+  /**************************/
+  /* BELOW 944px (Tablets) */
+  /**************************/
+  
+  @media (max-width: 60em) {
+    html {
+      font-size: 43.75%;
+    }
+    .btn-icon-image {
+      margin-top: 10.5px;
+    }
+    .deal-text {
+      top: 1.8rem;
+      left: 2.2rem;
+    }
+    .btn-deal {
+      padding: 1rem 1.2rem 1rem 1.2rem;
+    }
+    .latter-btn {
+      padding: 1.2rem 1.6rem;
+    }
+    .deal-input {
+      font-size: 1.3rem;
+      padding: 0 1rem;
+    }
+    .deal-img-2 {
+      height: 30rem;
+    }
+    .hero-image {
+      width: 100%; /* Make it responsive to its container */
+      max-width: 83rem; /* Limit maximum width */
+      height: auto; /* Maintain aspect ratio */
+    }
+    .hero-img {
+      /* vertical-align: middle; */
+      bottom: -4rem;
+      right: 2rem;
+    }
+    .latter-section-content {
+      top: 2.9rem;
+      gap: 2.2rem;
+    }
+    .footer-section-1 {
+      gap: 3.2rem;
+      padding-top: 2rem;
+    }
+    .footer-section-2 {
+      gap: 2.2rem;
+    }
+    .footer-3{
+        gap: 1px;
+    }
+  
+    /* .heading-1,
+    .heading-2,
+    .heading-3 {
+      line-height: 0;
+    } */
+  }
+  
+  @media (max-width: 53em) {
+    html {
+      font-size: 37.55%;
+    }
+    .category-icon {
+      margin-top: 0.8rem;
+    }
+    .hero-text {
+      line-height: 28.4px;
+    }
+    .deals-container {
+      padding: 7rem;
+    }
+    .deal-text {
+      line-height: 27.2px;
+    }
+    .btn-deal {
+      top: 18.7rem;
+      left: 1.7rem;
+    }
+    
+    .latter-section-content{
+        top:1.9rem;
+        left:50rem;
+    }
+    .facility-img {
+      padding-top: 4px;
+    }
+    .facility-section {
+      gap: 1.6rem;
+    }
+    .popular-container {
+      padding: 0;
+    }
+    .deal-img-1 {
+      width: 50rem;
+    }
+    .deal-img-2 {
+      height: 28rem;
+      width: 50rem;
+    }
+    .trend-text {
+      padding: 0rem 0.5rem;
+    }
+    .hero-img {
+      right: -3rem;
+    }
+    .popular-1 {
+      width: 21rem;
+    }
+    .popular-text {
+      width: 90%;
+    }
+    .footer-section-1 {
+      
+        padding-top: 3rem;
+    }
+    .latter-text-1{
+
+    }
+
+    
+  }
+  
+  @media (max-width: 46em) {
+    .deals-container {
+      padding: 0rem;
+    }
+    html {
+      font-size: 31.25%;
+    }
+    .logo-search {
+      gap: 20rem;
+    }
+    .category-icon {
+      margin-top: 1rem;
+    }
+    .rating {
+      gap: 2px;
+      left: 5px;
+    }
+    .deals-banner-section {
+      padding-top: 7rem;
+    }
+    .deal-img-2 {
+      height: 31rem;
+      width: 55rem;
+    }
+    .btn-deal {
+      padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+    }
+    .deal-img-1 {
+      width: 57rem;
+    }
+    .latter-section-content {
+      top: 0.9rem;
+    }
+    .footer-section-1 {
+        padding-top: 4rem;
+      }
+      .latter-text-2 {
+        font-size: 2rem;
+    }
+    .trend-text-1{
+        line-height:15px ;
+    }
+    .trend-text-2{
+        line-height: 10px;
+        margin-bottom: 0
+
+    }
+    .trend-text-3{
+        line-height:30px ;
+
+    }
+    .trend-heading-1{
+        line-height: 40px;
+    }
+  }
+  
+  @media (max-width: 40rem) {
+  }
+  

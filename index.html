@@ -6,74 +6,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="queries.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+
     <title>E-commerce</title>
 </head>
 
 <body>
-
-    <nav>
-        <div class="container-nav navbar h-1 flex gap-1">
-            <div class="logo-search">
-                <div class="logo">
-                    <img src="img/Isolation_Mode (1).png" alt="LOGO" class="logo-img">
-                    <p class="logo-name"><b class="bold">V</b>ogue Venture</p>
+    <header>
+        <nav class="navbar nav-open">
+            <div class="container-nav h-1 flex gap-1">
+                <div class="logo-search">
+                    <div class="logo">
+                        <img src="img/Isolation_Mode (1).png" alt="LOGO" class="logo-img">
+                        <p class="logo-name"><b class="bold">V</b>ogue Venture</p>
+                    </div>
+                    <div class="search-bar">
+                        <input type="text" class="search" placeholder="Search for products...">
+                        <div class="search-icon">
+                            <img src="img/Vector (1) (1).png" alt="search">
+                        </div>
+                    </div>
                 </div>
-                <div class="search-bar">
-                    <input type="text" class="search" placeholder="Search for products...">
-                    <div class="search-icon">
-                        <img src="img/Vector (1) (1).png" alt="search">
+                <div class="sign-in-box">
+                    <div class="login-signin">
+                        <img src="img/002-add-user (1).png" alt="icon" height="100" class="icon">
+                        <p class="login-text">Login/Signup</p>
+                    </div>
+                    <div class="icons">
+                        <!-- <img src="img/ph_heart (1).png" alt="icon" class="img-icon"> -->
+                        <img src="img/ph_heart (1) (1).png" alt="icon" class="img-icon">
+                        <!-- <img src="img/001-shopping-bag.png" alt="icon" class="img-icon"> -->
+                        <img src="img/001-shopping-bag (1).png" alt="icon" class="img-icon">
+
                     </div>
                 </div>
             </div>
-            <div class="sign-in-box">
-                <div class="login-signin">
-                    <img src="img/002-add-user (1).png" alt="icon" height="100" class="icon">
-                    <p class="login-text">Login/Signup</p>
-                </div>
-                <div class="icons">
-                    <!-- <img src="img/ph_heart (1).png" alt="icon" class="img-icon"> -->
-                    <img src="img/ph_heart (1) (1).png" alt="icon" class="img-icon">
-                    <!-- <img src="img/001-shopping-bag.png" alt="icon" class="img-icon"> -->
-                    <img src="img/001-shopping-bag (1).png" alt="icon" class="img-icon">
+
+            <div class="container-nav-2  h-2 flex ">
+                <div class="categories">
+                    <div class="category-1">
+                        <img src="img/Sorting Left (1) (1).png" alt="icon" class="category-icon">
+                        <p class="text">All categories</p>
+
+                    </div>
+                    <img src="img/Vector (2) (1).png" alt="icon" class="category-icon-2">
 
                 </div>
+                <div class="navlink">
+                    <ul class="nav-list">
+                        <li class="list-item"><a href="#">Home</a></li>
+                        <li class="list-item"><a href="#">New Arrivals</a></li>
+                        <li class="list-item"><a href="#">Best Sellers</a></li>
+                        <li class="list-item"><a href="#">About us</a></li>
+                        <li class="list-item"><a href="#">Contact us</a></li>
+
+
+                    </ul>
+
+                </div>
+                <div class="phone-info-container mobile-hide">
+                    <div class="phone-image">
+                        <img src="img/material-symbols_add-call-outline (1).png" alt="icon" class="phone-img">
+                    </div>
+                    <div class="texts">
+                        <p class="phone-text flex-start text-1">Hotline 24/7</p>
+                        <p class="phone-text text-2">9144448888</p>
+
+                    </div>
+                </div>
+                <button class="btn-mobile-nav">
+                    <ion-icon class="icon-mobile-nav menu-icon" name="menu-outline"></ion-icon>
+                    <ion-icon class="icon-mobile-nav close-icon" name="close-outline"></ion-icon>
+                </button>
             </div>
-        </div>
-
-        <div class="container-nav-2  h-2 flex ">
-            <div class="categories">
-                <div class="category-1">
-                    <img src="img/Sorting Left (1) (1).png" alt="icon" class="category-icon">
-                    <p class="text">All categories</p>
-
-                </div>
-                <img src="img/Vector (2) (1).png" alt="icon" class="category-icon-2">
-
-            </div>
-            <div class="navlink">
-                <ul class="nav-list">
-                    <li class="list-item"><a href="#">Home</a></li>
-                    <li class="list-item"><a href="#">New Arrivals</a></li>
-                    <li class="list-item"><a href="#">Best Sellers</a></li>
-                    <li class="list-item"><a href="#">About us</a></li>
-                    <li class="list-item"><a href="#">Contact us</a></li>
+        </nav>
 
 
-                </ul>
+    </header>
 
-            </div>
-            <div class="phone-info-container">
-                <div class="phone-image">
-                    <img src="img/material-symbols_add-call-outline (1).png" alt="icon" class="phone-img">
-                </div>
-                <div class="texts">
-                    <p class="phone-text flex-start text-1">Hotline 24/7</p>
-                    <p class="phone-text text-2">9144448888</p>
 
-                </div>
-            </div>
-        </div>
-    </nav>
 
     <section class="section-hero hero-container">
         <div class="small-img">
@@ -130,7 +142,7 @@
         </div>
         <div class="facility-part">
             <div class="facility-img">
-                <img src="img/004-best-price (1).png" alt="" class="facility-image">
+                <img src="img/001-free-shipping (1).png" alt="" class="facility-image">>
 
             </div>
             <div class="facility-text">
@@ -142,7 +154,7 @@
         <div class="facility-part">
             <div class="facility-img">
                 <!-- <img src="img/002-service.png" alt=""> -->
-                <img src="img/002-service (1).png" alt="" class="facility-image">
+                <img src="img/002-service (1).png" alt="" class="facility-image">>
 
             </div>
             <div class="facility-text">
@@ -162,9 +174,14 @@
 
 
         </div>
-        <div class="collection-image">
-            <img src="img/Image (1) (1).png" alt="" class="collection-img-1">
-            <img src="img/Image (2) (1).png" alt="" class="collection-img-2">
+        <div class="collection-image collection-slider">
+            <button class="slider-btn prev" id="prev-btn">&#10094;</button>
+            <div class="image-container">
+
+                <img src="img/Image (1) (1).png" alt="" class="collection-img collection-img-1">
+                <img src="img/Image (2) (1).png" alt="" class="collection-img collection-img-2">
+            </div>
+            <button class="slider-btn next" id="next-btn">&#10095;</button>
         </div>
     </section>
 
@@ -176,7 +193,7 @@
             </div>
             <div class="trend-containers">
                 <div class="trend-container-section">
-        
+
                     <div class="trend-container">
                         <div class="trend-image">
                             <img src="img/ph_heart (1) (1).png" alt="" class="heart-icon">
@@ -193,7 +210,7 @@
                             <p class="trend-text-3">Rs. 599 </p> <span class="trend-text-span-1">Rs. (999)</span>
                             <span class="trend-text-span-2">(40% off)</span>
                         </div>
-        
+
                     </div>
                     <div class="trend-container">
                         <div class="trend-image">
@@ -211,7 +228,7 @@
                             <p class="trend-text-3">Rs. 1599 </p> <span class="trend-text-span-1">Rs. (2999)</span>
                             <span class="trend-text-span-2">(40% off)</span>
                         </div>
-        
+
                     </div>
                     <div class="trend-container">
                         <div class="trend-image">
@@ -229,7 +246,7 @@
                             <p class="trend-text-3">Rs. 2599 </p> <span class="trend-text-span-1">Rs. (5999)</span>
                             <span class="trend-text-span-2">(45% off)</span>
                         </div>
-        
+
                     </div>
                     <div class="trend-container">
                         <div class="trend-image">
@@ -247,16 +264,16 @@
                             <p class="trend-text-3">Rs. 1599 </p> <span class="trend-text-span-1">Rs. (2999)</span>
                             <span class="trend-text-span-2">(50% off)</span>
                         </div>
-        
+
                     </div>
                 </div>
 
             </div>
 
         </div>
-        
-        
-        
+
+
+
 
 
     </section>
@@ -269,7 +286,7 @@
                 <p class="trend-heading-1">Discover your <span class="trend-span">style</span></p>
                 <p class="trend-heading-2">Explore our most popular categories</p>
             </div>
-    
+
             <div class="popular-containers">
                 <div class="popular-container">
                     <div class="popular-1">
@@ -281,7 +298,7 @@
                             <p class="popular-text-2">30%-60% OFF</p>
                             <p class="popular-text-3">Shop Now</p>
                         </div>
-    
+
                     </div>
                     <div class="popular-1">
                         <div class="">
@@ -292,7 +309,7 @@
                             <p class="popular-text-2">30%-60% OFF</p>
                             <p class="popular-text-3">Shop Now</p>
                         </div>
-    
+
                     </div>
                     <div class="popular-1">
                         <div class="">
@@ -303,7 +320,7 @@
                             <p class="popular-text-2">30%-60% OFF</p>
                             <p class="popular-text-3">Shop Now</p>
                         </div>
-    
+
                     </div>
                     <div class="popular-1">
                         <div class="">
@@ -314,7 +331,7 @@
                             <p class="popular-text-2">30%-60% OFF</p>
                             <p class="popular-text-3">Shop Now</p>
                         </div>
-    
+
                     </div>
                     <div class="popular-1">
                         <div class="">
@@ -325,17 +342,9 @@
                             <p class="popular-text-2">30%-60% OFF</p>
                             <p class="popular-text-3">Shop Now</p>
                         </div>
-    
+
                     </div>
-    
-    
-    
-    
-    
                 </div>
-    
-    
-    
             </div>
         </div>
     </section>
@@ -364,7 +373,7 @@
             </div>
             <div class="trend-containers">
                 <div class="trend-container-section">
-    
+
                     <div class="trend-container">
                         <div class="trend-image">
                             <img src="img/ph_heart (1) (1).png" alt="" class="heart-icon">
@@ -381,7 +390,7 @@
                             <p class="trend-text-3">Rs. 599 </p> <span class="trend-text-span-1">Rs. (999)</span>
                             <span class="trend-text-span-2">(40% off)</span>
                         </div>
-    
+
                     </div>
                     <div class="trend-container">
                         <div class="trend-image">
@@ -395,11 +404,11 @@
                         </div>
                         <div class="trend-text">
                             <p class="trend-text-1">Classic Denim Jeans</p>
-                            <p class="trend-text-2">Deni, jacket Confort Stye</p>
+                            <p class="trend-text-2">Denim, jacket Comfort Style cloth</p>
                             <p class="trend-text-3">Rs. 599 </p> <span class="trend-text-span-1">Rs. (999)</span>
                             <span class="trend-text-span-2">(40% off)</span>
                         </div>
-    
+
                     </div>
                     <div class="trend-container">
                         <div class="trend-image">
@@ -417,7 +426,7 @@
                             <p class="trend-text-3">Rs. 599 </p> <span class="trend-text-span-1">Rs. (999)</span>
                             <span class="trend-text-span-2">(40% off)</span>
                         </div>
-    
+
                     </div>
                     <div class="trend-container">
                         <div class="trend-image">
@@ -435,12 +444,12 @@
                             <p class="trend-text-3">Rs. 599 </p> <span class="trend-text-span-1">Rs. (999)</span>
                             <span class="trend-text-span-2">(40% off)</span>
                         </div>
-    
+
                     </div>
-    
+
                 </div>
-    
-               
+
+
             </div>
 
         </div>
@@ -489,13 +498,13 @@
                         <img src="img/ri_facebook-fill (3).png" alt="" class="img-footer">
                     </div>
                     <div class="footer-image">
-                        <img src="img/ri_facebook-fill (2).png" alt="img-footer">
+                        <img src="img/ri_facebook-fill (2).png" alt="" class="img-footer">
                     </div>
                     <div class="footer-image">
-                        <img src="img/ri_facebook-fill (1).png" alt="img-footer">
+                        <img src="img/ri_facebook-fill (1).png" alt="" class="img-footer">
                     </div>
                     <div class="footer-image">
-                        <img src="img/ri_facebook-fill.png" alt="img-footer">
+                        <img src="img/ri_facebook-fill.png" alt="" class="img-footer">
                     </div>
                 </div>
             </div>
@@ -564,5 +573,6 @@
 
 
 </body>
+<script src="script.js"></script>
 
 </html>

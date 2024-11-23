@@ -556,13 +556,15 @@ header {
 }
 
 .collection-img-1 {
-  width: 55vw;
+  width: 50vw;
   margin-right: 3.3rem;
   /* height: 20%; */
 }
 
 .collection-img-2 {
-  width: 40vw;
+  width: 45vw;
+  object-fit: contain;
+  
 /*   height: 36rem; */
   /* height: 25%; */
 }

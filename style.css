@@ -556,14 +556,14 @@ header {
 }
 
 .collection-img-1 {
-  width: 55%;
+  width: 55vw;
   margin-right: 3.3rem;
   /* height: 20%; */
 }
 
 .collection-img-2 {
-  width: 40%;
-  height: 36rem;
+  width: 45vw;
+/*   height: 36rem; */
   /* height: 25%; */
 }
 

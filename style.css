@@ -505,7 +505,6 @@ header {
 } */
 .image-container {
   display: flex;
-
 }
 
 .heading-1 {
@@ -549,12 +548,11 @@ header {
   margin-top: 8.6rem;
   /* gap: 3.3rem; */
 }
-.collection-img{
+.collection-img {
   display: inline-block;
   width: auto;
   max-width: 100%;
   height: auto;
-
 }
 
 .collection-img-1 {
@@ -800,6 +798,9 @@ header {
   margin-left: 1px;
 }
 
+.hide {
+  display: none;
+}
 .popular-text-1 {
   font-family: Lato;
   font-size: 2rem;
@@ -1070,6 +1071,7 @@ header {
   align-items: center;
   justify-content: center;
 }
+
 .footer-head {
   font-family: Mona Sans;
   font-size: 3.2rem;

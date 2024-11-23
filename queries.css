@@ -773,7 +773,6 @@
   .collection-text {
     gap: 2.4rem;
   }
-  
 
   .heading-1,
   .heading-2,
@@ -849,5 +848,143 @@
 
   .next {
     right: 10px;
+  }
+  .btn-icon-image {
+    margin-top: 1.5px;
+  }
+  .btn p {
+    font-size: 1.4rem;
+    line-height: 10px;
+  }
+
+  .heading-1,
+  .heading-2 {
+    font-size: 3.8rem;
+  }
+  .deal-img-1,
+  .deal-img-2 {
+    width: 67rem;
+  }
+
+  .deal-img-2 {
+    height: 32rem;
+  }
+
+  .deals-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn {
+    width: 30%;
+  }
+  .new-latter {
+    width: 89vw;
+    margin-top: 4rem;
+  }
+  .latter-text-1 {
+    font-size: 2.1rem;
+    text-align: left;
+    line-height: 10px;
+  }
+  .latter-text-2 {
+    font-size: 1.8rem;
+    text-align: left;
+    line-height: 10px;
+  }
+  .latter-section-content {
+    top: 3rem;
+    left: 38rem;
+  }
+  .latter-header {
+    gap: 1rem;
+  }
+  .rating {
+    bottom: 5rem;
+  }
+  .latter-btn {
+    /* width: 30%; */
+
+    font-size: 1.2rem;
+  }
+  .footer-2 {
+    font-size: 1.7rem;
+  }
+  .img-footer {
+    width: 4rem;
+  }
+  .footer-head {
+    font-size: 2.2rem;
+  }
+  .footer-item {
+    line-height: 10px;
+  }
+  .ss-img {
+    width: 25rem;
+  }
+
+  /* Trend section
+  .trend-slider {
+    display: flex;
+    position: relative;
+  }
+
+  .trend-slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    z-index: 2;
+  }
+  #prev-btn {
+    left: 0.5rem;
+  }
+  .trend-container {
+    flex: 0 0 50%; /* Each trend item takes 50% of the width */
+  /* padding: 1rem;
+  box-sizing: border-box;
+}
+.trend-section {
+  margin-bottom: 6rem;
+}
+
+#next-btn {
+  right: 0.5rem;
+}
+*/
+  .trend-container-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 4rem 10rem;
+
+    row-gap: 12rem;
+  }
+  .trend-container {
+    width: 27rem;
+  }
+  .trend-product {
+    width: 27rem;
+  }
+  .trend-text-3 {
+    line-height: 14px;
+  }
+  .popular-container {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 4rem 10rem;
+    row-gap: 4rem;
+  }
+  .popular-image {
+    width: 28rem;
+  }
+  .hide {
+    display: inline-block;
+  }
+  .popular-1 {
+    width: 31rem;
   }
 }

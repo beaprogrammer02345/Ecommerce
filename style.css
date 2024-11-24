@@ -13,6 +13,7 @@ html {
   /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
   overflow-x: hidden;
+  
 }
 /* font-family: "Mona Sans", sans-serif; */
 /* font-family: "Lato", serif; */
@@ -20,6 +21,7 @@ html {
 body {
   font-family: "Lato", serif;
   overflow: visible;
+  
   /* max-width: 151.2rem; */
   /* min-width: 151.2rem; */
   /* overflow-x: hidden; */
@@ -60,6 +62,8 @@ header {
 } */
 .container-nav {
   max-width: 100%;
+   /* width: 100%; */
+
   /* min-width: 151.4rem; */
   /* height: 10.4%; */
   padding: 2rem 10.5rem;
@@ -92,6 +96,7 @@ header {
 }
 .logo-name {
   font-family: "Mona Sans", sans-serif;
+ 
   font-weight: 300;
   font-size: 3.2rem;
   letter-spacing: -0.5;
@@ -236,7 +241,7 @@ header {
 }
 .h-2 {
   display: flex;
-  text-align: center;
+  align-items: center;
   justify-content: space-between;
   gap: 6rem;
 }
@@ -541,7 +546,7 @@ header {
 }
 .collection-image {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: center;
   align-items: center;
   /* text-align: center; */
   /* margin: auto; */
@@ -556,13 +561,13 @@ header {
 }
 
 .collection-img-1 {
-  width: 50vw;
+  width: 49vw;
   margin-right: 3.3rem;
   /* height: 20%; */
 }
 
 .collection-img-2 {
-  width: 45vw;
+  width: 33vw;
   object-fit: contain;
   
 /*   height: 36rem; */
@@ -571,7 +576,10 @@ header {
 
 /* trend-section */
 .trends-section {
-  width: 89vw;
+    /* Hala */
+  width: 84vw;
+  padding: 0rem 0.5rem;
+  /* Hala */
   margin: auto;
 }
 
@@ -598,29 +606,45 @@ header {
 }
 .trend-container {
   position: relative;
-  height: 38rem;
-  width: 27rem;
+  /* Hala */
+  /* height: 38rem; */
+  width: 100%;
+  /* Hala */
 }
 .trend-container-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 1rem;
-  padding-left: 4rem;
+  gap: 1.5rem;
+  /* Hala */
+  /* padding-left: 4rem; */
+  /* Hala */
   /* padding: 1rem 4rem; */
 }
 .trend-product {
-  width: 27rem;
+    position: relative;
+    width: 100%;
+    /* Hala  */
+  /* width: 27rem; */
+  /* Hala */
   /* height: 38rem; */
 }
+.trend-image{
+    position: relative;
+}
+
 .rating {
   position: absolute;
   display: flex;
-  bottom: 9rem;
+  bottom: 2rem;
+  /* Hala */
+  /* bottom: 9rem; */
+  /* Hala */
   left: 11px;
   background-color: #e5f8fa;
   padding: 0.5rem;
   gap: 4px;
 }
+
 
 /* .trend-product {
   display: flex;
@@ -628,9 +652,12 @@ header {
   position: relative;
 } */
 .trend-container {
+    width: 100%;
   position: relative;
-  width: 27rem;
-  height: 40.2rem;
+  /* Hala */
+  /* width: 27rem;
+  height: 40.2rem; */
+  /* Hala */
 }
 
 .heart-icon {
@@ -770,11 +797,18 @@ header {
   gap: 8.6rem;
 }
 .popular-1 {
-  width: 23rem;
+    width:100%;
+    /* Hala */
+  /* width: 23rem; */
+  /* Hala */
 }
 .popular-image {
-  width: 20rem;
+    width: 100%;
+    /* Hala */
+  /* width: 20rem; */
+  /* Hala */
 }
+
 
 .popular-containers {
   /* padding: 8.6rem 9rem; */
@@ -788,11 +822,14 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 1rem;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
 }
 
 .popular-text {
-  width: 87%;
+    width:100%;
+    /* Hala */
+  /* width: 87%; */
+  /* Hala */
   background-color: #353946;
   color: white;
   margin: -0.2rem;
@@ -862,8 +899,9 @@ header {
 
 .btn-deal {
   position: absolute;
-  top: 23.7rem;
-  left: 4.7rem;
+  /* top: 22.7rem; */
+  bottom: 3rem;
+  left: 3.7rem;
   padding: 1.3rem 2.2rem 1.3rem 2.2rem;
   gap: 1rem;
   border: 0px 0px 1px 0px;
@@ -882,8 +920,10 @@ header {
 }
 .deal-text {
   position: absolute;
-  top: 7.8rem;
-  left: 4.2rem;
+  top: 5.8rem;
+  left: 3.2rem;
+  /* top: 4.8rem; */
+  
   font-family: Mona Sans;
   font-size: 3.6rem;
   font-weight: 600;
@@ -899,12 +939,13 @@ header {
 }
 
 .deal-img-1 {
-  width: 57rem;
+  width: 41vw;
   /* height: 35rem; */
 }
 .deal-img-2 {
-  width: 56.6rem;
-  height: 31.5rem;
+  width: 41vw;
+  object-fit: contain;
+  /* height: 31.5rem; */
 }
 
 .deal-span {
@@ -938,7 +979,7 @@ header {
   flex-direction: column;
   position: absolute;
   top: 8.2rem;
-  left: 51.7rem;
+  right: 1rem;
   gap: 4.2rem;
   /* padding: 1rem; */
 }
